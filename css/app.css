@@ -1,0 +1,164 @@
+@font-face {
+	font-family: 'Nexa';
+	src: url('../font/nexa/light/Nexa_Free_Light-webfont.eot');
+	src: url('../font/nexa/light/Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/nexa/lightfree/Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('../font/nexa/bold/Nexa_Free_Bold-webfont.eot');
+	src: url('../font/nexa/bold/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/nexa/boldfree/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Felt Tip Woman';
+	src: url('../font/felttipwoman/felt_tip_woman-webfont.woff2') format('woff2'),
+	url('../font/felttipwoman/felt_tip_woman-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.text-gray {
+	color: #bebebe;
+}
+
+.text-white {
+	color: #fff;
+}
+
+
+.menu-centered {
+	font-family: 'Nexa';
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	margin: 0 10px;
+	padding: 20px;
+
+	height: 100px;
+	line-height: 100px;
+	white-space: nowrap;
+}
+
+.menu a {
+	color: #fff;
+}
+
+.menu a:hover {
+	color: #b9c0c6;
+}
+
+.header {
+	height: 100vh;
+	background: url("../img/bg-wood-header.jpg");
+}
+
+h1 {
+	font-family: 'Nexa';
+	font-size: 60px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.logo {
+	display: block;
+	margin: 15vh auto 30px;
+}
+
+.scroll-down  {
+	display: block;
+	margin: 0 auto 10px;
+}
+
+.scroll p {
+	margin: 10vh auto 5px;
+	text-align: center;
+	font-family: 'Nexa';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.about {
+	position: relative;
+	padding-top: 17vh;
+	height: 100vh;
+}
+
+.about h2 {
+	font-family: 'Nexa';
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-size: 24px;
+}
+
+.about span {
+	font-family: 'Felt Tip Woman';
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.portfolio {
+	position: relative;
+	padding-top: 17vh;
+	height: 100vh;
+	background: url("../img/bg-wood-portfolio.jpg");
+}
+
+.portfolio h2 {
+	font-family: 'Nexa';
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.scroll {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	margin: 0 auto;
+}
+
+.grid-item {
+	width: 19%;
+}
+
+.grid-item img {
+	margin: 5px;
+}
+
+.contact {
+	position: relative;
+	padding-top: 17vh;
+	height: 100vh;
+}
+
+.copyright {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+
+	text-align: center;
+	font-family: 'Nexa';
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.copyright p {
+	text-align: center;
+	font-family: 'Nexa';
+	font-size: 18px;
+	text-transform: uppercase;
+}
